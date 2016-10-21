@@ -1,7 +1,7 @@
 # Site settings
 email: 
 baseurl: "/podcast/"
-paginate: 10
+paginate: 11
 paginate_path: "/podcast/page-:num"
 google_analytics: 
 
