@@ -217,10 +217,11 @@
     position: absolute;
     top: 0;
     clip-path: polygon(50% 40%, 60% 50%, 50% 60%, 40% 50%);
+    transition: clip-path 0.4s ease-in;
   }
 
   &__scribbleShowTransition{
-    transition: clip-path 0.4s ease-in;
+    
   }
   &__scribbleShow{
     opacity: 1;
