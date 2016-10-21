@@ -106,6 +106,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });*/
  // cache the navigation links 
 $(document).ready(function () {
+  $(".preview__logoPostScribble").first().addClass('preview__scribbleShow')
+  
+  var $firstMenu = $(".previews__menu a").first();
+  $firstMenu.css({
+    color: '' + $($firstMenu).attr('id'),
+    transition: '0s'
+  });
+
     $(document).on("scroll", onScroll);
     
     //smoothscroll
@@ -134,7 +142,7 @@ $(document).ready(function () {
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     var windowHeight = $(window).height();
-    var windowHeight_half = (windowHeight / 2);
+    var windowHeight_half = (windowHeight / 3);
     $('#menu-center a').each(function () {
 
         var currLink = $(this);
@@ -148,7 +156,7 @@ function onScroll(event){
             currLink.css('color', '#2A2E32');
         }
         if(refElement.position().top - windowHeight_half <= scrollPos  ){
-            refElement.find(".preview__logoPostScribble").addClass('preview__scribbleShow');
+            refElement.find(".preview__logoPostScribble").addClass('preview__scribbleShow preview__scribbleShowTransition');
         }
         
     });
