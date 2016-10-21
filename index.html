@@ -61,7 +61,7 @@ layout: default
                 <h1 itemprop="name" >{{ post.title }}</h1>
               </div>
               <div class="preview__logoPost">
-                <img src="assets/img/episode0.svg">
+                <img src="{{ 'assets/img/episode0.svg' | prepend: site.baseurl }}">
                 <img src="{{ post.image }}">
              </div>
 
