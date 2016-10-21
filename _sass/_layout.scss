@@ -49,6 +49,7 @@ section {
       z-index: 6;
       position: relative;
       order: 1;
+      min-height: 80%; //fallback
       min-height: 80vh;
       width: 100vw;
       background-color: $color-grey;
