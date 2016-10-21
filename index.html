@@ -60,8 +60,11 @@ layout: default
                 <time class="preview__date">· {{ post.date | date_to_string }} ·</time>
                 <h1 itemprop="name" >{{ post.title }}</h1>
               </div>
-              
-              <img class="preview__logoPost" src="{{ post.image }}"></img>
+              <div class="preview__logoPost">
+                <img src="assets/img/episode0.svg">
+                <img src="{{ post.image }}">
+             </div>
+
               <div class="preview__audioPlayer">{{ post.mp3 }}</div>
               <div class="preview__excerptText" style="background-color:{{ post.colorPost }}">
                   <p class="preview__excerptTextBlack" style="color: {{ post.colorPost }}"><span> {{ post.description}}</span></hp>
