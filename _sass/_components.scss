@@ -141,7 +141,25 @@
       
     }
   }
-
+  &__imprint{
+     position: absolute;
+ 
+     bottom: 0;
+         a{
+           text-decoration: none;
+           text-transform: uppercase;
+           color: $color-alpha;
+           font-size: $fontSize-third;
+           &:hover{
+             color: $color-black;
+           }
+     }   
+         
+     @media (max-width: $mq-md){
+       right: $padding-standard;
+    }  
+ 
+  }
 
 
   &__footer{
