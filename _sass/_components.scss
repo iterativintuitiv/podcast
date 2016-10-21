@@ -179,7 +179,7 @@
         max-height: 1.5em;
         width: 1.5em;
           &:hover{
-            transition: opacity 0.2s ease-in-out;
+            @include transition(opacity 0.2s ease-in-out);
              opacity: 0.5;
           }
         } 
@@ -217,7 +217,7 @@
     position: absolute;
     top: 0;
     clip-path: polygon(50% 40%, 60% 50%, 50% 60%, 40% 50%);
-    transition: clip-path 0.4s ease-in;
+    @include transition(clip-path 0.4s ease-in);
   }
 
   &__scribbleShowTransition{
@@ -388,7 +388,7 @@
     display: block;
 
     background-color: $color-white;
-    transition: background-color 0.2s ease-in-out;
+    @include transition(background-color 0.2s ease-in-out);
 
     &:after {
       @include box-shadow(3px);
@@ -403,7 +403,7 @@
 
       opacity: 0;
       will-change: opacity;
-      transition: opacity 0.2s ease-in-out;
+      @include transition(opacity 0.2s ease-in-out);
     }
 
     &:hover {
