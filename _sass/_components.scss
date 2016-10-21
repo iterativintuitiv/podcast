@@ -188,11 +188,18 @@
 
   &__logoPost{
     z-index: 2;
-    padding: $padding-standard 0;
+    /*padding: $padding-standard 0;*/
+    position:relative;
     margin: 0 auto;
     width: 100%;
   }
 
+
+  &__logoPost:nth-child(2){
+    position: absolute;
+    top: 0;
+  }
+  
   &__image{
 
     padding: 2em 0;
