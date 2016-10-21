@@ -1,8 +1,8 @@
 # Site settings
 email: 
-baseurl: "/myblog/"
+baseurl: "/podcast/"
 paginate: 10
-paginate_path: "/myblog/page-:num"
+paginate_path: "/podcast/page-:num"
 google_analytics: 
 
 # SEO settings

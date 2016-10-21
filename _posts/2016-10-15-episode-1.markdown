@@ -44,8 +44,8 @@ chapterStart:
 | | |
 |:-|:-|
 | Die Songs | [intoinfintity.org](http://www.intoinfintity.org) |
-| Unser Podcasting Tool | [Zencastr](http://www.zencastr.com) |
-| Von Dennis die| [Herausforderung für Designer](http://bit.ly/umfrage_doku_design) |
+| Podcasting Tool | [Zencastr](http://www.zencastr.com) |
+| Herausforderun| [für Designer](http://bit.ly/umfrage_doku_design) |
 | Der Let's Play von | [Steinwallen](https://www.youtube.com/user/Steinwallen) |
 | Das Multiplayer Tool | [Figma](htpp://www.figma.com) |
 | Don Norman's | [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |

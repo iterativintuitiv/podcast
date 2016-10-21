@@ -2,7 +2,7 @@
 layout: none
 title: "Vom Bauchgefühl her"
 episode: "02"
-description: "Tesssst 22 Diese Woche sprechen Oli und Dennis über nützliche Brands, URL Leuchttürme und die weibliche Intuition."
+description: "Diese Woche sprechen Oli und Dennis über nützliche Brands, URL Leuchttürme und die weibliche Intuition."
 colorPost: "#C6A9A4"
 song: "conflict"
 image: assets/img/episode2.svg
