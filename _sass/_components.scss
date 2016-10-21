@@ -222,6 +222,7 @@
   }
 
   &__scribbleShowTransition{
+    @include transition(-webkit-clip-path 0.4s ease-in);
     @include transition(clip-path 0.4s ease-in);
   }
   &__scribbleShow{
