@@ -156,7 +156,7 @@ function onScroll(event){
             currLink.css('color', '#2A2E32');
         }
         if(refElement.position().top - windowHeight_half <= scrollPos  ){
-            refElement.find(".preview__logoPostScribble").addClass('preview__scribbleShow preview__scribbleShowTransition');
+            refElement.find(".preview__logoPostScribble").addClass('preview__scribbleShow ');
         }
         
     });
