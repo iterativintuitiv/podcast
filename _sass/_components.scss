@@ -1,0 +1,723 @@
+/**
+ * Tabs
+ * On the Blog page for posts and categories
+ */
+
+
+.tabs {
+  @extend %letter-spacing;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 10em;
+  @media (min-width: $mq-md) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  @media (min-width: $mq-xxl) {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+  
+  &__item {
+    cursor: pointer;
+
+    &:not(.active) {
+      @include border-slide();
+    }
+
+    &.active {
+      border-bottom: 3px solid $color-alpha;
+    }
+  }
+}
+
+.tab {
+
+  
+}
+
+/**
+ * Blog Post Preview
+ * On the Blog page
+ */
+.previews {
+  
+  &__wrapperLeft{
+    display: inline;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    
+    
+    @media (max-width: $mq-md) {
+      a{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__logo{
+    //width: 80%;
+    max-height: 80vw;
+    padding: 5vh 0;
+    @media (min-width: $mq-md) {
+      display: none;
+    }
+
+  }
+
+  &__container{
+    @media (max-width: $mq-md) {
+      padding: 0 2vh;
+
+    }
+  }
+  //
+  &__hostsWrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: $padding-standard;
+    & > *{
+      padding-top: $padding-third;
+    }
+
+    @media (max-width: $mq-md) {
+      display: none;
+    }
+    @media (max-height: $mq-sm){
+       display: none;
+    }
+  }
+
+  &__hostsImage{
+    width: 30%;
+    img{
+      max-height: 2.5em;
+        width: 2.5em;
+    }
+  }
+
+  &__hostsName{
+    padding-left: $padding-third;
+    width: 70%;
+  }
+//
+  &__wrapperMenue {
+    
+    vertical-align: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+  }
+
+  &__menu{
+    text-decoration: none;
+    align-item: center;
+    font-size: calc(1.5vw + 1.5vh);
+    padding: 3vh 0;
+  }
+
+  &__counter{
+
+    li{
+      font-size: 1.5em;
+      padding: 1.5em 0;
+
+      
+    }
+
+    a{
+      cursor: pointer;
+      
+    }
+  }
+
+
+
+  &__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+
+    & > *{
+      padding: 1.25em 1.25em;
+      
+      img{
+        max-height: 1.5em;
+        width: 1.5em;
+          &:hover{
+            transition: opacity 0.2s ease-in-out;
+             opacity: 0.5;
+          }
+        } 
+    }
+    
+    @media (min-width: $mq-md) {
+      justify-content: flex-end;
+      flex-direction: column;
+        & > *{
+          padding: 1em 1em; 
+          img{
+            max-height: 1.25em;
+            width: 1.25em;
+          }
+        } 
+    }
+     
+  }
+}
+
+.preview {
+  position: relative;
+  min-height: 200vh;
+  padding: $padding-standard 0;
+
+  &__logoPost{
+    z-index: 2;
+    padding: $padding-standard 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__image{
+
+    padding: 2em 0;
+  }
+  
+  &__date {
+    font-family: $font-header;
+    color: $color-black;
+    font-size: $fontSize-third;
+    text-transform: uppercase;
+  }
+
+  &__header {
+    text-align: center;
+    color: $color-black;
+  
+  }
+  
+  &__excerptText{
+    padding: $padding-standard $padding-half;
+    text-align: center;
+    vertical-align: center;
+  }
+  &__excerptTextBlack{
+    color: $color-white;
+    font-size: $fontSize-standard;
+    line-height: 1.25em;
+    display: inline;
+    padding-top: 0.40em;
+    padding-bottom: 0.20em;
+    background: $color-black;
+    box-shadow: 10px 0 0 $color-black, -10px 0 0 $color-black;
+    box-decoration-break: clone;
+  }
+
+  &__podcastInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-family: $font-body;
+    color: $color-black;
+    padding: $padding-standard 0 $padding-standard $padding-standard;
+    
+    font-style: $font-body;
+      & > *{
+        a{
+          color: $color-white;
+          font-size: $fontSize-half;
+          &:hover{
+            color: $color-black;
+          }
+        }
+        
+        align-self: center;
+
+          &:first-child{
+            width: 50%;
+            align-item:center;
+          }
+          &:nth-child(2){
+          padding: $padding-standard 0 $padding-standard $padding-standard;
+          
+          color: white;
+            hr{
+              width: 150px;
+              margin: $padding-third 0 ;
+            }
+          }
+      }
+  }
+
+  &__podcastInfoChapter{
+    align-item:center;
+    padding: $padding-third 0;
+      & > *{
+        &:first-child{
+        padding: 0;
+        font-size: $fontSize-third;
+        margin-bottom: 0;
+        }
+
+        &:nth-child(2){
+          margin: 0;
+          }      
+        }
+
+
+      
+  }
+
+  &__audioPlayer{
+   padding: $padding-standard $padding-standard;
+  }
+  
+  &__links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: $padding-standard;
+      
+    & > *{
+      table{
+        align-item: flex-start;
+        max-width: 50%;
+        padding-bottom: 0;
+      }
+      
+      th{
+        width: 0;
+        height: 0;
+        display: none;
+      }
+      td {
+          padding: 15px;
+          text-align: left;
+      }
+
+      td:nth-child(1){
+        font-size: $fontSize-third;
+        min-width: 20%;
+      }
+      td:nth-child(2){
+        font-size: $fontSize-half;
+      }
+    }
+  }
+}
+
+
+/**
+ * Category Card
+ * On the blog page under category tab
+ */
+.cards {
+  @include flex-grid(1, 2, $xxl: 3, $pad: 0.25em);
+
+  padding: 2em 1em;
+
+  @media (min-width: $mq-md) {
+    padding: 4em 2em;
+  }
+}
+
+.card {
+
+  &__link {
+    @include box-shadow(1px);
+
+    position: relative;
+
+    display: block;
+
+    background-color: $color-white;
+    transition: background-color 0.2s ease-in-out;
+
+    &:after {
+      @include box-shadow(3px);
+
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: 100%;
+      width: 100%;
+
+      opacity: 0;
+      will-change: opacity;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    &:hover {
+      background-color: $color-alpha--light;
+
+      &:after {
+        opacity: 1;
+      }
+      
+      .card__more {
+        box-shadow: inset 175px 0 0 0 $color-alpha;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+
+    height: 12em;
+
+    background-color: $color-black;
+
+    &:after {
+      @extend %overlay;
+    }
+  }
+
+  &__container {
+    padding: 2em 1em;
+  }
+
+  &__header {
+    color: $color-alpha;
+  }
+
+  &__count {
+    color: $color-black;
+  }
+
+  &__more {
+    @include button-slide(0.25em);
+  }
+}
+
+
+
+/**
+ * Footer
+ */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  @media (min-width: $mq-sm) {
+    flex-direction: row;
+  }
+
+  &__archive {
+    @include border-slide();
+
+    @extend %letter-spacing;
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 1em;
+
+    @media (min-width: $mq-sm) {
+      margin-top: 0;
+    }
+
+    & > *:not(:last-child) {
+      margin-right: 1em;
+    }    
+  }
+}
+
+/**
+ * Mast
+ * On the Post page for the header section
+ */
+.mast {
+  position: relative;
+
+  height: 35em;
+
+  color: $color-white;
+  background-color: $color-black;
+
+  &:after {
+    @extend %overlay;
+  }
+
+  &__img {
+    animation: fade-in 1s both;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    line-height: 1.2;
+  }
+}
+
+/**
+ * Navigation
+ */
+.nav {
+  @extend %letter-spacing;
+
+  position: absolute;
+  top: 1.25em;
+  left: 1em;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+
+  font-family: $font-body;
+
+  @media (min-width: $mq-sm) {
+    left: 2em;
+  }
+
+  i {
+
+    @media (min-width: $mq-sm) {
+      margin-right: 0.5em;
+    }
+  }
+
+  span {
+    display: none;
+
+    @media (min-width: $mq-sm) {
+      display: block;
+    }
+  }
+
+  &--black {
+    color: $color-black;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-black;
+    }
+  }
+
+  &--white {
+    color: $color-white;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-white;
+    }
+  }
+}
+
+/**
+ * Post
+ */
+.post {
+  width: 90%;
+  max-width: $mq-md;
+  margin: 0 auto;
+
+  font-family: $font-post;
+
+  @media (min-width: $mq-md) {
+    width: 55%;
+  }
+
+  h1, 
+  h2 {
+    line-height: 1.2;
+  }
+
+  p:first-child {
+    font-size: $fontSize-standard;
+  }
+
+  a {
+    border-bottom: 1px solid $color-alpha;
+  }
+
+  img {
+    padding-bottom: 0.75em;
+  }
+
+  figure {
+    padding-bottom: 0.75em;
+  }
+
+  figure > img {
+    padding-bottom: 0;
+  }
+}
+
+/**
+ * Profile Card
+ */
+.profile {
+  width: 90%;
+  max-width: $mq-md;
+  margin: 0 auto;
+  padding-bottom: 4em;
+
+  @media (min-width: $mq-lg) {
+    width: 55%;
+  }
+
+  &__card {
+    @include box-shadow(1px);
+
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $mq-md) {
+      flex-direction: row;
+    }
+  }
+
+  &__img {
+    position: relative;
+
+    min-height: 15em;
+
+    background-color: $color-black;
+
+    @media (min-width: $mq-md) {
+      flex-basis: 45%;
+      max-width: 45%;
+    }
+
+    &:after {
+      @extend %overlay;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+
+    background-color: $color-white;
+
+    @media (min-width: $mq-md) {
+      flex-basis: 55%;
+      max-width: 55%;
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: flex-end;
+
+    & > *:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
+
+/**
+ * Next Post
+ * On the Post page for single post pagination
+ */
+.next {
+  background-color: $color-black;
+
+  &__link {
+    display: block;
+    height: 25em;
+    padding: 6em 0;
+
+    color: $color-white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    &:after {
+      @extend %overlay;
+    }
+
+    &:hover {
+      color: $color-white;
+    }
+
+    &:hover:after {
+      background-color: rgba($color-alpha, 0.8);
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    text-align: center;
+
+    span {
+      @extend %letter-spacing;
+
+      font-family: $font-body;
+    }
+  }
+}
+
+/**
+ * Archives Page
+ * Should be layout, but more elements added
+ */
+.archives {
+
+  &__header {
+    @extend %letter-spacing;
+
+    padding: 1em;
+
+    text-align: center;
+
+    span {
+      border-bottom: 3px solid $color-alpha;
+    }
+  }
+
+  &__container {
+    @include flex-grid(1, 2, 3, $xxl: 4, $pad: 0.25em);
+
+    max-width: $mq-xl;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+

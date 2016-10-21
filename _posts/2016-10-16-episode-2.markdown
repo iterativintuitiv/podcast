@@ -1,0 +1,60 @@
+---
+layout: none
+title: "Vom Bauchgefühl her"
+episode: "02"
+description: "Tesssst 22 Diese Woche sprechen Oli und Dennis über nützliche Brands, URL Leuchttürme und die weibliche Intuition."
+colorPost: "#C6A9A4"
+song: "conflict"
+image: assets/img/episode2.svg
+
+
+mp3: <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fiterativintuitiv%2Fvom-bauchgef%25C3%25BChl-her%2F&hide_cover=1&mini=1&hide_artwork=1" frameborder="0"></iframe>
+
+chapterTitle:
+- ""
+- "Willkommen"
+- "Vorgeplänkel:"
+- "Das Wort der Woche"
+- "Das Thema"
+- "Sinnieren über:"
+- "Reflexion"
+
+chapter: 
+- ""
+- ""
+- "UBX, Narcos, KSK & Ingwer Tee" 
+- "In·tu·i·ti·ōn"
+- "Physical Web"
+- "Die Brücke zwischen analog und digital" 
+- ""
+
+chapterStart:
+- ""
+- "00:00:00"
+- "00:02:30"
+- "00:11:30"
+- "00:38:00"
+- "00:47:30"
+- "00:57:45"
+
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !--> 
+
+| | |
+|:-|:-|
+| Die Konferenz | [UBX](http://ubx.info/konferenz/) |
+| Pablo Escobar in | [Narcos](http://www.imdb.com/title/tt2707408/) |
+| Zahlen für die | [KSK](http://www.kuenstlersozialkasse.de/service/ksk-in-zahlen.html) |
+| Die Intuition nach | [Cooper](http://www.cooper.com/journal/2007/10/intuition_pleasure_and_gesture) |
+
+
+
+
+| | |
+|:-|:-|
+| Apples Idee der | [iBeacon](https://developer.apple.com/ibeacon/) |
+| Understanding | [Industrial Design](http://shop.oreilly.com/product/0636920037019.do) |
+| Niederbayerischer | [Schreiner](https://www.youtube.com/watch?v=6vMejS21KH4) |
+| Facebook mit | [Sheryl Sandberg](https://www.facebook.com/sheryl?fref=ts) |
+

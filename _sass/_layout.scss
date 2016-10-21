@@ -1,0 +1,109 @@
+/**
+ * Body
+ */
+body {
+  background-color: $color-grey;
+}
+
+/**
+ * Sections
+ */
+section {
+  position: relative;
+}
+
+.section-padding {
+  padding: 4em 0;
+
+  &--lg {
+    padding: 6em 0;
+  }
+
+  &--sm {
+    padding: 2em 0;
+  }
+}
+
+/**
+ * Class Container (BEM)
+ */
+[class*='__container'] {
+  position: relative;
+  z-index: 1;
+}
+
+/**
+ * Blog page
+ */
+.previews {
+
+  @media (max-width: $mq-md) {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  & > * {
+    
+    &:first-child { //intro
+      z-index: 6;
+      position: relative;
+      order: 1;
+      min-height: 80vh;
+      width: 100vw;
+      background-color: $color-grey;
+
+
+
+      @media (min-width: $mq-md) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        max-width: 30%;
+
+      }
+
+    }
+
+    &:nth-child(2) { //menue
+      height: 100%;
+      order: 3;
+      position: fixed;
+      max-width: 10%;
+      @media (min-width: $mq-md) {
+        order: 2;
+        position: fixed;
+        max-width: 8%;
+        margin-left: 32%;
+      }
+    }
+    &:nth-child(3){ //content
+      margin-left: 10%;
+      max-width: 100%;
+      order: 4;
+      @media (min-width: $mq-md) {
+        order: 3;
+        max-width: 55%;
+        margin-left: 40%;
+      }
+
+    }
+
+    &:nth-child(4){ //footer
+      
+      order: 2;
+      height: 20vh;
+      background-color: $color-grey;
+      @media (min-width: $mq-md) {
+        height: 100%;
+        order: 4;
+        width: 5%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-left: 95%;
+      }
+    }
+  }
+}

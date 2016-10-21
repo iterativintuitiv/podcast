@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn_itunes" fill="#000000">
+            <path d="M6.5,2 L19,0 L19,17.5 C19,17.5 18.5,19.5 16,20.5 C13.5,21.5 12,19.5 12,19 C12,18.5 12,17 13.5,16 C15,15 17.5,15.5 17.5,15.5 L17.5,4.5 L8,6 L8,19 C8,19 7,21.5 5,22 C3,22.5 1.12519153,21.7519153 1,20.5 C0.874808465,19.2480847 1,18.5 2.5,17.5 C4,16.5 6.5,17 6.5,17 L6.5,2 Z" id="itunes"></path>
+        </g>
+    </g>
+</svg>

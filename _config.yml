@@ -1,0 +1,33 @@
+# Site settings
+email: 
+baseurl: "/myblog/"
+paginate: 10
+paginate_path: "/myblog/page-:num"
+google_analytics: 
+
+# SEO settings
+title: iterativintuitiv
+description: 
+url: "www.iterativintuitiv.de"
+twitter_username: 
+default_img: 
+
+# Profile settings
+name: iterativintuitiv
+profile_img: 
+profile: 
+social:
+  github: 
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
