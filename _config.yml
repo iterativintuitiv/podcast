@@ -7,14 +7,14 @@ google_analytics:
 
 # SEO settings
 title: iterativintuitiv
-description: 
+description: "iterativintuitiv ist dein neuer IX · UX · UI · Service · Vorabend Talk."
 url: "www.iterativintuitiv.de"
-twitter_username: 
-default_img: 
+twitter_username: "iivpodcast"
+default_img: "assets/img/logo.png"
 
 # Profile settings
 name: iterativintuitiv
-profile_img: 
+profile_img: "assets/img/logo.png"
 profile: 
 social:
   github: 

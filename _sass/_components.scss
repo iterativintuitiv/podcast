@@ -126,6 +126,27 @@
     font-size: calc(1.5vw + 1.5vh);
     padding: 3vh 0;
   }
+  
+  &__imprint{
+    position: absolute;
+
+    bottom: 0;
+        a{
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $color-alpha;
+          font-size: $fontSize-third;
+          &:hover{
+            color: $color-black;
+          }
+    }   
+        
+    @media (max-width: $mq-md){
+      right: $padding-standard;
+    }  
+
+  }
+    
 
   &__counter{
 
@@ -151,6 +172,7 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    background-color: $color-grey;
     
 
     & > *{
