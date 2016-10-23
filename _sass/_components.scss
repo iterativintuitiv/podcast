@@ -216,6 +216,9 @@
     opacity: 0;
     position: absolute;
     top: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none; /*für den Fall dass es überlappt*/
 
     @include clip-path(polygon(50% 40%, 60% 50%, 50% 60%, 40% 50%));
     
@@ -324,7 +327,7 @@
   }
 
   &__audioPlayer{
-   padding: $padding-standard $padding-standard;
+   padding: 0 $padding-standard;
   }
   
   &__links{
