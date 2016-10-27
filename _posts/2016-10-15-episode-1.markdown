@@ -45,7 +45,7 @@ chapterStart:
 |:-|:-|
 | Die Songs | [intoinfintity.org](http://www.intoinfintity.org) |
 | Podcasting Tool | [Zencastr](http://www.zencastr.com) |
-| Herausforderun| [für Designer](http://bit.ly/umfrage_doku_design) |
+| Herausforderung| [für Designer](http://bit.ly/umfrage_doku_design) |
 | Der Let's Play von | [Steinwallen](https://www.youtube.com/user/Steinwallen) |
 | Das Multiplayer Tool | [Figma](htpp://www.figma.com) |
 | Don Norman's | [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
@@ -57,6 +57,6 @@ chapterStart:
 | Kolaborations Tool | [Invision](http://www.invision.com) |
 | Multiplayer mit dem | [Github Plugin für Sketch](https://github.com/mathieudutour/git-sketch-plugin) |
 | Die lang gehypte | [Oculus](https://www.oculus.com/) |
-| Die neue Königing | [HTC Vive](https://www.vive.com/de/) |
+| Die neue Königin | [HTC Vive](https://www.vive.com/de/) |
 | Die günstige | [Google Cardboard](https://vr.google.com/cardboard/) |
 | Jean-Marc Denis | [From product design to virtual reality](https://medium.com/google-design/from-product-design-to-virtual-reality-be46fa793e9b#.ixyccymnc) |
