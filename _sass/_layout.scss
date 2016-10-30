@@ -36,7 +36,7 @@ section {
   }
 
   & > * {
-    
+
     &:first-child { //intro
       z-index: 6;
       position: relative;
@@ -84,7 +84,7 @@ section {
     }
 
     &:nth-child(4){ //footer
-      
+
       order: 2;
       height: 20vh;
       background-color: $color-grey;
@@ -100,3 +100,6 @@ section {
     }
   }
 }
+
+
+// landing

@@ -202,7 +202,7 @@
 
 .preview {
   position: relative;
-  
+
   padding: $padding-standard 0;
 
   &__logoPost{
@@ -756,4 +756,68 @@
     padding-left: 1em;
     padding-right: 1em;
   }
+}
+
+
+//vip
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #efefef;
+  min-height: 100vh;
+    h1{
+      font-size: $fontSize-double;
+    }
+    p{
+      padding-top: $padding-double;
+      font-size: $fontSize-standard;
+    }
+
+
+
+  &__block{
+    text-align: center;
+    width: 60vw;
+    height: 100%;
+    background-color: $color-white;
+    margin: 4vh 0 0 0;
+    padding: 5vw;
+      img{
+        max-height: 30vh;
+        height: 100%;
+
+      }
+      a{
+        color: #4A90E2;
+        margin: 10vh 0;
+        text-decoration: underline;
+
+      }
+    }
+    &__important{
+      font-size: 1.5em;
+    }
+    &__hosts{
+      width: 60vw;
+      background-color: $color-white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      padding-top: 0;
+      margin-top: 0;
+      padding-bottom: 4vh;
+      margin-bottom: 4vh;
+      & > *{
+        width: 15vw;
+
+
+        img{
+          max-height: 10vh;
+        }
+      }
+    }
 }
