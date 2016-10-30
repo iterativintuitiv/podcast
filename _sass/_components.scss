@@ -787,7 +787,7 @@
     background-color: $color-white;
     margin: 4vh 0 0 0;
     padding: 5vw;
-    width: 90vw;
+    width: 95vw;
     @media (min-width: $mq-md) {
       width: 60vw;
     }
@@ -808,7 +808,7 @@
       font-size: 1.5em;
     }
     &__hosts{
-      width: 90vw;
+      width: 95vw;
       @media (min-width: $mq-md) {
         width: 60vw;
       }
