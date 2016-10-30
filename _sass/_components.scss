@@ -19,7 +19,7 @@
     padding-left: 10em;
     padding-right: 10em;
   }
-  
+
   &__item {
     cursor: pointer;
 
@@ -35,7 +35,7 @@
 
 .tab {
 
-  
+
 }
 
 /**
@@ -43,14 +43,14 @@
  * On the Blog page
  */
 .previews {
-  
+
   &__wrapperLeft{
     display: inline;
     height: 100%;
     width: 100%;
     padding: 2em;
-    
-    
+
+
     @media (max-width: $mq-md) {
       a{
         text-decoration: underline;
@@ -107,7 +107,7 @@
   }
 //
   &__wrapperMenue {
-    
+
     vertical-align: center;
     text-align: center;
     display: -webkit-box;
@@ -133,18 +133,18 @@
       font-size: 1.5em;
       padding: 1.5em 0;
 
-      
+
     }
 
     a{
       cursor: pointer;
-      
+
     }
   }
-  
+
   &__imprint{
      position: absolute;
- 
+
      bottom: 0;
          a{
            text-decoration: none;
@@ -154,12 +154,12 @@
            &:hover{
              color: $color-black;
            }
-     }   
-         
+     }
+
      @media (max-width: $mq-md){
        right: $padding-standard;
-    }  
- 
+    }
+
   }
 
 
@@ -170,11 +170,11 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    
+
 
     & > *{
       padding: 1.25em 1.25em;
-      
+
       img{
         max-height: 1.5em;
         width: 1.5em;
@@ -182,27 +182,27 @@
             @include transition(opacity 0.2s ease-in-out);
              opacity: 0.5;
           }
-        } 
+        }
     }
-    
+
     @media (min-width: $mq-md) {
       justify-content: flex-end;
       flex-direction: column;
         & > *{
-          padding: 1em 1em; 
+          padding: 1em 1em;
           img{
             max-height: 1.25em;
             width: 1.25em;
           }
-        } 
+        }
     }
-     
+
   }
 }
 
 .preview {
   position: relative;
-  min-height: 200vh;
+  
   padding: $padding-standard 0;
 
   &__logoPost{
@@ -210,35 +210,32 @@
     /*padding: $padding-standard 0;*/
     position:relative;
     margin: 0 auto;
-    width: 100%;  
+    width: 100%;
   }
   &__logoPostScribble{
     opacity: 0;
     position: absolute;
     top: 0;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none; /*für den Fall dass es überlappt*/
 
     @include clip-path(polygon(50% 40%, 60% 50%, 50% 60%, 40% 50%));
-    
+
   }
 
   &__scribbleShowTransition{
+    @include transition(-webkit-clip-path 0.4s ease-in);
     @include transition(clip-path 0.4s ease-in);
-    -webkit-transition: -webkit-clip-path 0.4s ease-in;
   }
   &__scribbleShow{
     opacity: 1;
     @include clip-path(polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%));
   }
-  
-  
+
+
   &__image{
 
     padding: 2em 0;
   }
-  
+
   &__date {
     font-family: $font-header;
     color: $color-black;
@@ -249,9 +246,9 @@
   &__header {
     text-align: center;
     color: $color-black;
-  
+
   }
-  
+
   &__excerptText{
     padding: $padding-standard $padding-half;
     text-align: center;
@@ -274,21 +271,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     font-family: $font-body;
     color: $color-black;
     padding: $padding-standard 0 $padding-standard $padding-standard;
-    
+
     font-style: $font-body;
       & > *{
         a{
           color: $color-white;
-          font-size: $fontSize-third;
+          font-size: $fontSize-half;
           &:hover{
             color: $color-black;
           }
         }
-        
+
         align-self: center;
 
           &:first-child{
@@ -297,7 +294,7 @@
           }
           &:nth-child(2){
           padding: $padding-standard 0 $padding-standard $padding-standard;
-          
+
           color: white;
             hr{
               width: 150px;
@@ -319,17 +316,17 @@
 
         &:nth-child(2){
           margin: 0;
-          }      
+          }
         }
 
 
-      
+
   }
 
   &__audioPlayer{
-   padding: 0 $padding-standard;
+   padding: $padding-standard $padding-standard;
   }
-  
+
   &__links{
     width: 100%;
     display: flex;
@@ -339,14 +336,14 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: $padding-standard;
-      
+
     & > *{
       table{
         align-item: flex-start;
         max-width: 50%;
         padding-bottom: 0;
       }
-      
+
       th{
         width: 0;
         height: 0;
@@ -417,7 +414,7 @@
       &:after {
         opacity: 1;
       }
-      
+
       .card__more {
         box-shadow: inset 175px 0 0 0 $color-alpha;
         color: $color-white;
@@ -487,7 +484,7 @@
 
     & > *:not(:last-child) {
       margin-right: 1em;
-    }    
+    }
   }
 }
 
@@ -595,7 +592,7 @@
     width: 55%;
   }
 
-  h1, 
+  h1,
   h2 {
     line-height: 1.2;
   }
@@ -760,5 +757,3 @@
     padding-right: 1em;
   }
 }
-
-
