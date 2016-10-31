@@ -8,7 +8,7 @@ layout: default
   <div class="previews__wrapperLeft">
     <img class="previews__logo" src="{{ 'assets/img/logo.svg' | prepend: site.baseurl }}">
     <div class="previews__container">
-      <h3>iterativintuitiv ist dein neuer IX · UX · UI · Service · Vorabend Talk. <br>  
+      <h3>iterativintuitiv ist dein neuer IX · UX · UI · Service · Vorabend Talk. <br>
            <a target="_blank" href="http://dennishatwieger.de/">Dennis</a> und <a target="_blank" href="http://okoebler.de/">Oli</a> sinnieren über Designgrundlagen, aktuelle Projekte und wie Design in Zukunft doch noch die Welt retten kann.
       </h3>
     </div>
@@ -30,34 +30,34 @@ layout: default
         <a href={{"datenschutz" | prepend: site.baseurl}}>Datenschutz / </a>
         <a href={{"impressum" | prepend: site.baseurl}}> Impressum </a>
     </div>
-  </div> 
-  <div class="previews__wrapperMenue">  
+  </div>
+  <div class="previews__wrapperMenue">
     <div id="menu-center">
       <ul>
         {% for post in paginator.posts  %}
           <li class="previews__menu">
 
-            <a href="#{{ post.episode }}" id="{{ post.colorPost }}" 
+            <a href="#{{ post.episode }}" id="{{ post.colorPost }}"
               >{{ post.episode }}</a>
           </li>
         {% endfor %}
-      </ul> 
-    </div>   
+      </ul>
+    </div>
   </div>
   <div>
-   <!-- header für die post seite, wird zur Zeit nicht genutzt 
+   <!-- header für die post seite, wird zur Zeit nicht genutzt
       <header>
       </header>
     -->
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog" ><!--nur test-->
         {% for post in paginator.posts %}
-       
-          <li class="preview" id="{{ post.episode }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" style="background-color:{{ post.colorPost }}"> 
+
+          <li class="preview" id="{{ post.episode }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" style="background-color:{{ post.colorPost }}">
 
               <!-- date wird zur zeit nicht genutzt
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.episode  }}</span> -->
-              
+
               <div class="preview__header" itemprop="datePublished" >
                 <time class="preview__date">· {{ post.date | date_to_string }} ·</time>
                 <h1 itemprop="name" >{{ post.title }}</h1>
@@ -77,8 +77,8 @@ layout: default
                 {% assign count = 0 %}
                 {% for chapter in post.chapter  %}
                   {% assign count = count | plus: 1 %}
-                  <div class="preview__podcastInfoChapter" > 
-                    <p>{{ post.chapterTitle[count] | textilize }}</p> 
+                  <div class="preview__podcastInfoChapter" >
+                    <p>{{ post.chapterTitle[count] | textilize }}</p>
                     <h3>{{ post.chapter[count] | textilize }} </h3>
                     <p>{{ post.chapterStart[count] | textilize }}
                   </div>
@@ -90,18 +90,18 @@ layout: default
                   <hr>
                   <a  href="https://iterativintuitiv.github.io/podcast/color" target="_blank">Random-Farbe:</a>
                   <h3 class="preview__color" >{{ post.colorPost }}</h3>
-                </div>  
+                </div>
               </div>
-              
+
               <hr>
               <div class="preview__links" style="background-color:{{ post.colorPost }}">
                 {{ post.content}}
               </div>
-            
+
           </li>
         {% endfor %}
       </ul>
-      
+
       <!-- Paginator für Staffeln
       {% if paginator.total_pages > 1 %}
         <div class="pagination">
@@ -115,18 +115,18 @@ layout: default
         </div>
       {% endif %}
       -->
-     
+
     </div>
   </div>
 
   <div class="previews__footerWrapper">
     <div class="previews__footer">
-      <a href="" target="_blank"><img src="{{ '/assets/img/icons/icn_itunes.svg' | prepend: site.baseurl }}"></a>
-      <a href="" target="_blank"><img src="{{ '/assets/img/icons/icn_rss.svg' | prepend: site.baseurl }}"></a>
+      <!-- <a href="" target="_blank"><img src="{{ '/assets/img/icons/icn_itunes.svg' | prepend: site.baseurl }}"></a>
+      <a href="" target="_blank"><img src="{{ '/assets/img/icons/icn_rss.svg' | prepend: site.baseurl }}"></a> -->
       <a href="https://twitter.com/iivpodcast" target="_blank"><img src="{{ '/assets/img/icons/icn_twitter.svg' | prepend: site.baseurl }}" target="_blank"></a>
       <a href="https://www.facebook.com/iterativintuitiv/?fref=ts" target="_blank"><img src="{{ '/assets/img/icons/icn_facebook.svg' | prepend: site.baseurl }}" ></a>
       <a href="mailto:iterativintuitiv@gmail.com" target="_blank"><img src="{{ '/assets/img/icons/icn_mail.svg' | prepend: site.baseurl }}"></a>
-      
+
     </div>
   </div>
 
