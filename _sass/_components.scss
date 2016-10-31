@@ -822,9 +822,15 @@
       padding-bottom: 4vh;
       margin-bottom: 4vh;
       & > *{
-        width: 15vw;
+        width:20vw;
 
+        a{
 
+          font-size: $fontSize-third;
+          @media (min-width: $mq-md) {
+            font-size: $fontSize-standard;
+          }
+        }
         img{
           max-height: 10vh;
         }
