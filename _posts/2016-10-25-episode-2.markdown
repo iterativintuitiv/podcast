@@ -8,7 +8,7 @@ song: "conflict"
 image: assets/img/episode2.svg
 
 
-mp3: <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fiterativintuitiv%2Fvom-bauchgef%25C3%25BChl-her%2F&hide_cover=1&mini=1&hide_artwork=1" frameborder="0"></iframe>
+mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/88766?visual=true" frameborder="0"></iframe>
 
 chapterTitle:
 - ""
@@ -19,13 +19,13 @@ chapterTitle:
 - "Sinnieren über:"
 - "Reflexion"
 
-chapter: 
+chapter:
 - ""
 - ""
-- "UBX, Narcos, KSK & Ingwer Tee" 
+- "UBX, Narcos, KSK & Ingwer Tee"
 - "In·tu·i·ti·ōn"
 - "Physical Web"
-- "Die Brücke zwischen analog und digital" 
+- "Die Brücke zwischen analog und digital"
 - ""
 
 chapterStart:
@@ -39,7 +39,7 @@ chapterStart:
 
 ---
 
-<!-- nach 8 einträgen ein neues table erstellen, danke :) !--> 
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
 
 | | |
 |:-|:-|
@@ -57,4 +57,3 @@ chapterStart:
 | Understanding | [Industrial Design](http://shop.oreilly.com/product/0636920037019.do) |
 | Niederbayerischer | [Schreiner](https://www.youtube.com/watch?v=6vMejS21KH4) |
 | Facebook mit | [Sheryl Sandberg](https://www.facebook.com/sheryl?fref=ts) |
-
