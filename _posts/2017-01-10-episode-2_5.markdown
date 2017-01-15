@@ -1,0 +1,27 @@
+---
+layout: none
+title: "Dennis and Oli react to ... "
+episode: "03"
+description: "... Feedback"
+colorPost: "#A35C96"
+song: "illreme_1"
+image: assets/img/episode2_5.svg
+
+
+mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/91076?visual=true" frameborder="0"></iframe>
+
+chapterTitle:
+
+
+
+chapter:
+
+
+
+chapterStart:
+
+
+
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
