@@ -5,17 +5,40 @@
     <description>iterativintuitiv ist dein neuer IX · UX · UI · Service · Vorabend Talk.</description>
     <link>www.iterativintuitiv.de/podcast//</link>
     <atom:link href="www.iterativintuitiv.de/podcast//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jan 2017 10:16:26 +0100</pubDate>
-    <lastBuildDate>Tue, 17 Jan 2017 10:16:26 +0100</lastBuildDate>
+    <pubDate>Tue, 17 Jan 2017 10:16:40 +0100</pubDate>
+    <lastBuildDate>Tue, 17 Jan 2017 10:16:40 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Dennis and Oli react to ... </title>
         <description>&lt;!-- nach 8 einträgen ein neues table erstellen, danke :) !--&gt;
-&lt;p&gt;| | |
-|:-|:-|
-| Fragebogenstyle | &lt;a href=&quot;http://attrakdiff.de/&quot;&gt;attrakdiff.org&lt;/a&gt; |
-| Gebt uns Feedback | &lt;a href=&quot;https://goo.gl/forms/YIz8tzLDRahHsItm2&quot;&gt;Fragebogen&lt;/a&gt; |&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fragebogenstyle&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://attrakdiff.de/&quot;&gt;attrakdiff.org&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Gebt uns Feedback&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://goo.gl/forms/YIz8tzLDRahHsItm2&quot;&gt;Fragebogen&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         <pubDate>Tue, 10 Jan 2017 00:00:00 +0100</pubDate>
         <link>www.iterativintuitiv.de/podcast//2017/01/10/episode-2_5/</link>
