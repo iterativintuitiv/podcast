@@ -13,15 +13,18 @@
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
   <meta property="og:type" content="blog">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   <meta name="twitter:domain" content="{{ site.url }}">
-  <meta property="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
+  <meta property="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ 'assets/img/logo.svg' | prepend: site.baseurl }}{% endif %}">
 
+
+
+  <meta name="twitter:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | prepend: site.baseurl }}">
