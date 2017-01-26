@@ -57,4 +57,4 @@ chapterStart:
 | Die lang gehypte | [Oculus](https://www.oculus.com/) |
 | Die neue Königing | [HTC Vive](https://www.vive.com/de/) |
 | Die günstige | [Google Cardboard](https://vr.google.com/cardboard/) |
-| Jean-Marc Denis | [From product design to vr](https://medium.com/google-design/from-product-design-to-virtual-reality-be46fa793e9b#.ixyccymnc) |
+| Jean-Marc Denis | [From product design to VR](https://medium.com/google-design/from-product-design-to-virtual-reality-be46fa793e9b#.ixyccymnc) |
