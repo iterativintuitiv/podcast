@@ -2,7 +2,7 @@
 layout: none
 title: "Kollektiver W://e"
 episode: "05"
-description: "Diese Woche quatschen Oli und Dennis über Design Überraschungen, CrowdSourcing und offen gelegten Echsenaugen"
+description: "Diese Woche quatschen Oli und Dennis über Design Überraschungen, die Crowd, Quellen und offen gelegten Echsenaugen"
 colorPost: "#349877"
 song: "tilda_1"
 image: assets/img/episode5.svg
