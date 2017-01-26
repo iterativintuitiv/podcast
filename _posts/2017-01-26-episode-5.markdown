@@ -44,21 +44,20 @@ chapterStart:
 
 | | |
 |:-|:-|
-| Farbenraten | [Whatthehex] (http://yizzle.com/whatthehex/) |
-| 50 Cents für | [99Designs] (https://99designs.de/) |
-| 1 dollar laptop? | [one laptop] (http://one.laptop.org/)  |
-| saynotospec | [Zulu Alpha Kilo] (https://www.youtube.com/watch?v=essNmNOrQto&amp;feature=youtu.be)  |
-| Banks | [Johnson Banks] (http://johnsonbanks.co.uk/)  |
-| Hyde | [jekyll] (https://jekyllrb.com/)  |
-| juːnɪks | [unix] (https://de.wikipedia.org/wiki/Unix)  |
+| Farbenraten | [Whatthehex](http://yizzle.com/whatthehex/) |
+| 50 Cents für | [99Designs](https://99designs.de/) |
+| 1 dollar laptop? | [one laptop](http://one.laptop.org/)  |
+| saynotospec | [Zulu Alpha Kilo](https://www.youtube.com/watch?v=essNmNOrQto&amp;feature=youtu.be)  |
+| Banks | [Johnson Banks](http://johnsonbanks.co.uk/)  |
+| Hyde | [jekyll](https://jekyllrb.com/)  |
+| juːnɪks | [unix](https://de.wikipedia.org/wiki/Unix)  |
 
 | | |
 |:-|:-|
-| 1337 | [33c3] (https://media.ccc.de/c/33c3)  |
-| Optionen | [Logos] (http://johnsonbanks.co.uk/thoughtfortheweek/our-first-design-routes-for-mozilla/)  |
-| M | [melbourne] (https://www.behance.net/gallery/276451/city-of-melbourne)  |
-| moiré | [Wavy Logos] (http://www.theverge.com/2015/1/23/7876777/sonos-sound-wave-logo) |
-| Forschungsschiff | [Boaty McBoatface] (http://www.spiegel.de/wissenschaft/technik/britisches-forschungsschiff-soll-boaty-mcboatface-heissen-a-1087759.html) |
-| Pril | [lecker] (http://www.spiegel.de/netzwelt/web/virale-werbefallen-pril-schmeckt-nach-haehnchen-a-756532.html
-) |
-| Fira | [Font] (https://mozilla.github.io/Fira/) |
+| 1337 | [33c3](https://media.ccc.de/c/33c3)  |
+| Optionen | [Logos](http://johnsonbanks.co.uk/thoughtfortheweek/our-first-design-routes-for-mozilla/)  |
+| M | [melbourne](https://www.behance.net/gallery/276451/city-of-melbourne)  |
+| moiré | [Wavy Logos](http://www.theverge.com/2015/1/23/7876777/sonos-sound-wave-logo) |
+| Forschungsschiff | [Boaty McBoatface](http://www.spiegel.de/wissenschaft/technik/britisches-forschungsschiff-soll-boaty-mcboatface-heissen-a-1087759.html) |
+| Pril | [lecker](http://www.spiegel.de/netzwelt/web/virale-werbefallen-pril-schmeckt-nach-haehnchen-a-756532.html) |
+| Fira | [Font](https://mozilla.github.io/Fira/) |
