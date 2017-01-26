@@ -16,6 +16,7 @@ chapterTitle:
 - "Vorgeplänkel"
 - "Buzzword:"
 - "Thema der Woche:"
+- "Reflexion"
 
 
 chapter:
@@ -31,6 +32,7 @@ chapterStart:
 - "00:01:30"
 - "00:10:30"
 - "00:19:00"
+- "01:11:10"
 ---
 
 <!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
@@ -39,5 +41,7 @@ chapterStart:
 |:-|:-|
 | On-Demand Versicherung | [trōv](http://trov.com/) |
 | On-Demand Canban | [trello](https://trello.com) |
+| | |
+|:-|:-|
 | Disruptiv | [Innovation](https://techcrunch.com/event-type/disrupt/) |
 | Arme Hunde | [& Co](https://de.wikipedia.org/wiki/BCG-Matrix)  
