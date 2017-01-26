@@ -48,7 +48,7 @@ chapterStart:
 | Herausforderun| [für Designer](http://bit.ly/umfrage_doku_design) |
 | Der Let's Play von | [Steinwallen](https://www.youtube.com/user/Steinwallen) |
 | Das Multiplayer Tool | [Figma](htpp://www.figma.com) |
-| Don Norman's | [Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
+| Design of Everyday Things | [Don Norman](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
 
 | | |
 |:-|:-|
