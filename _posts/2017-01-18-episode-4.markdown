@@ -41,6 +41,10 @@ chapterStart:
 |:-|:-|
 | On-Demand Versicherung | [trōv](http://trov.com/) |
 | On-Demand Canban | [trello](https://trello.com) |
+
+
+
+
 | | |
 |:-|:-|
 | Disruptiv | [Innovation](https://techcrunch.com/event-type/disrupt/) |
