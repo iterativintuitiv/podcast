@@ -322,12 +322,13 @@
   }
   &__podcastInfoRandoms{
       color: $color-white;
-      font-size: $fontSize-half;
      & > a{
         font-size: $fontSize-third;
         &:hover{
             color: $color-black;
           }
+      & > h3{
+      font-size: $fontSize-half;
     }  
   }
 
