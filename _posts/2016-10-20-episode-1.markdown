@@ -50,8 +50,6 @@ chapterStart:
 | Das Multiplayer Tool | [Figma](htpp://www.figma.com) |
 | Don Norman's | [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
 
-
-
 | | |
 |:-|:-|
 | Kolaborations Tool | [Invision](http://www.invision.com) |
