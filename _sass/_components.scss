@@ -319,8 +319,11 @@
           }
         }
 
-
-
+  }
+  &__podcastInfoRandoms{
+     & > a{
+        font-size: $fontSize-third;
+    }  
   }
 
   &__audioPlayer{
