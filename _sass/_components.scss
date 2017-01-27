@@ -277,14 +277,6 @@
     padding: $padding-standard 0 $padding-standard $padding-standard;
 
     font-style: $font-body;
-      /*& > *{
-        a{
-          color: $color-white;
-          font-size: $fontSize-half;
-          &:hover{
-            color: $color-black;
-          }
-        }*/
 
         align-self: center;
 
@@ -297,7 +289,7 @@
 
           color: white;
             hr{
-              width: 150px;
+              width: 110px;
               margin: $padding-third 0 ;
             }
           }
