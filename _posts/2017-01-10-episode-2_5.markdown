@@ -37,6 +37,7 @@ chapterStart:
 | | |
 |:-|:-|
 | Fragebogenstyle | [attrakdiff.org](http://attrakdiff.de/) |
+
+| | |
+|:-|:-|
 | Gebt uns Feedback | [Fragebogen](https://goo.gl/forms/YIz8tzLDRahHsItm2) |
-|  |   |
-|   |   |
