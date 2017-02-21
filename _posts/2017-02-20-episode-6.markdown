@@ -5,7 +5,7 @@ episode: "06"
 description: "Diese Woche quatschen Oli und Dennis über Portfolioarbeit sowie der Macht von Nutzergeschichten und intrinsisch motivierten Sideprojects."
 colorPost: "#BC626C"
 song: "suzanne_kraft_2"
-image: "assets/img/episode6.svg"
+image: assets/img/episode6.svg
 
 
 mp3: <iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/94315?visual=true" frameborder="0"></iframe>

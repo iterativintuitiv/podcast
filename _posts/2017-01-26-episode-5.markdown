@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Kollektiver W://e"
+title: "Kollektiver W://e 2"
 episode: "05"
 description: "Diese Woche quatschen Oli und Dennis über Design Überraschungen, die Crowd, Quellen und offen gelegten Echsenaugen"
 colorPost: "#349877"
