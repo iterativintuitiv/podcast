@@ -1,0 +1,44 @@
+---
+layout: none
+title: "Geschichtsstunde"
+episode: "06"
+description: "Diese Woche quatschen Oli und Dennis über Portfolioarbeit sowie der Macht von Nutzergeschichten und intrinsisch motivierten Sideprojects."
+colorPost: "#BC626C"
+song: "ear_suzanne_kraft_2"
+image: assets/img/episode6.svg
+
+
+mp3: <iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/94315?visual=true" frameborder="0"></iframe>
+
+chapterTitle:
+- ""
+- "Willkommen"
+- "Vorgeplänkel"
+- "Buzzword:"
+- "Thema der Woche:"
+
+
+chapter:
+- ""
+- ""
+- ""
+- "Storytelling"
+- "Sideprojects"
+
+chapterStart:
+- ""
+- "00:00:00"
+- "00:01:30"
+- "00:19:30"
+- "00:35:00"
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
+
+| | |
+|:-|:-|
+| Der Google Document Killer? | [Dropbox Paper](https://paper.dropbox.com) |
+| AE zu SVG | [lottie](http://airbnb.design/introducing-lottie/) |
+| Hand Crafted | [Freehand](http://blog.invisionapp.com/craft-freehand/) |
+| Braden Kowitz über | [Good Storytelling](https://library.gv.com/why-good-storytelling-helps-you-design-great-products-148c9bbc7404#.9qyk4xbnc)  |
+| Die Helfer von | [Arthelps](http://www.arthelps.de/)  |
