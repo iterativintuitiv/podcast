@@ -1,0 +1,48 @@
+---
+layout: none
+title: "Kollektiver W://e"
+episode: "05"
+description: "Diese Woche quatschen Oli und Dennis über Design Überraschungen, CrowdSourcing und offen gelegten Echsenaugen"
+colorPost: "#349877"
+song: "tilda_1"
+image: assets/img/episode4.svg
+
+
+mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/92933?visual=true" frameborder="0"></iframe>
+
+chapterTitle:
+- ""
+- "Willkommen"
+- "Vorgeplänkel"
+- "Buzzword:"
+- "Thema der Woche:"
+
+
+chapter:
+- ""
+- ""
+- ""
+- "CrowdSourcing"
+- "OpenSource"
+
+chapterStart:
+- ""
+- "00:00:00"
+- "00:01:30"
+- "00:08:14"
+- "00:15:30"
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
+
+| | |
+|:-|:-|
+| Farbenraten | [Whatthehex](http://yizzle.com/whatthehex/ |
+| 50 Cents für | [99Designs](https://99designs.de/) |
+| moiré | [Wavy Logos](http://www.theverge.com/2015/1/23/7876777/sonos-sound-wave-logo) |
+| 1 dollar laptop? | [one laptop](http://one.laptop.org/)  |
+| saynotospec | [Zulu Alpha Kilo](https://www.youtube.com/watch?v=essNmNOrQto&feature=youtu.be)  |
+| Banks | [Johnson Banks](http://johnsonbanks.co.uk/)  |
+| Hyde | [jekyll](https://jekyllrb.com/)  |
+| juːnɪks | [unix](https://de.wikipedia.org/wiki/Unix)  |
+| 1337 | [33c3](https://media.ccc.de/c/33c3)  |

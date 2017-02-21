@@ -34,6 +34,10 @@
 }
 
 .tab {
+
+
+}
+
 /**
  * Blog Post Preview
  * On the Blog page
@@ -127,10 +131,14 @@
 
     li{
       font-size: 1.5em;
-      padding: 1.5em 1px;
+      padding: 1.5em 0;
+
+
     }
+
     a{
       cursor: pointer;
+
     }
   }
 
@@ -269,6 +277,14 @@
     padding: $padding-standard 0 $padding-standard $padding-standard;
 
     font-style: $font-body;
+      & > *{
+        a{
+          color: $color-white;
+          font-size: $fontSize-half;
+          &:hover{
+            color: $color-black;
+          }
+        }
 
         align-self: center;
 
@@ -281,7 +297,7 @@
 
           color: white;
             hr{
-              width: 110px;
+              width: 150px;
               margin: $padding-third 0 ;
             }
           }
@@ -303,18 +319,8 @@
           }
         }
 
-  }
-  &__podcastInfoRandoms{
-      color: $color-white;
-     & > a{
-        font-size: $fontSize-third;
-        &:hover{
-            color: $color-black;
-          }
-    }
-      & > h3{
-      font-size: $fontSize-half;
-    }
+
+
   }
 
   &__audioPlayer{
@@ -752,11 +758,6 @@
   }
 }
 
-//player
-
-.visual-image-container{
-  display:none;
-}
 
 //vip
 

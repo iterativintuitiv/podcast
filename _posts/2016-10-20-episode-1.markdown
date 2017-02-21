@@ -48,7 +48,9 @@ chapterStart:
 | Herausforderun| [für Designer](http://bit.ly/umfrage_doku_design) |
 | Der Let's Play von | [Steinwallen](https://www.youtube.com/user/Steinwallen) |
 | Das Multiplayer Tool | [Figma](htpp://www.figma.com) |
-| Design of Everyday Things | [Don Norman](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
+| Don Norman's | [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) |
+
+
 
 | | |
 |:-|:-|
@@ -57,4 +59,4 @@ chapterStart:
 | Die lang gehypte | [Oculus](https://www.oculus.com/) |
 | Die neue Königing | [HTC Vive](https://www.vive.com/de/) |
 | Die günstige | [Google Cardboard](https://vr.google.com/cardboard/) |
-| Jean-Marc Denis | [From product design to VR](https://medium.com/google-design/from-product-design-to-virtual-reality-be46fa793e9b#.ixyccymnc) |
+| Jean-Marc Denis | [From product design to virtual reality](https://medium.com/google-design/from-product-design-to-virtual-reality-be46fa793e9b#.ixyccymnc) |

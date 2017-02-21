@@ -53,7 +53,7 @@ layout: default
       <ul itemscope itemtype="http://schema.org/Blog" ><!--nur test-->
         {% for post in paginator.posts %}
 
-          <li class="preview" id="{{ post.episode }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <li class="preview" id="{{ post.episode }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" style="background-color:{{ post.colorPost }}">
 
               <!-- date wird zur zeit nicht genutzt
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.episode  }}</span> -->
@@ -72,7 +72,7 @@ layout: default
                   <p class="preview__excerptTextBlack" style="color: {{ post.colorPost }}"><span> {{ post.description}}</span></hp>
               </div>
               <hr>
-              <div class="preview__podcastInfo" itemprop="description">
+              <div class="preview__podcastInfo" itemprop="description" style="background-color:{{ post.colorPost }}">
                 <div>
                 {% assign count = 0 %}
                 {% for chapter in post.chapter  %}
@@ -84,7 +84,7 @@ layout: default
                   </div>
                   {% endfor %}
                 </div>
-                <div class="preview__podcastInfoRandoms">
+                <div>
                   <a href="http://intoinfinity.org/" target="_blank">Random-Intro:</a>
                   <h3 class="preview__song" >{{ post.song }}</h3>
                   <hr>
@@ -94,7 +94,7 @@ layout: default
               </div>
 
               <hr>
-              <div class="preview__links">
+              <div class="preview__links" style="background-color:{{ post.colorPost }}">
                 {{ post.content}}
               </div>
 
