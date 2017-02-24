@@ -5,7 +5,7 @@ episode: "00"
 description: "... iterativintuitiv is coming"
 colorPost: "#E4E4E4"
 song: "iko_5"
-image: assets/img/episode0.svg
+image: assets/img/episode.svg
 
 
 mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/88764?visual=true" frameborder="0"></iframe>
