@@ -37,11 +37,14 @@ chapterStart:
 
 | | |
 |:-|:-|
-| Farbenraten | [Whatthehex](http://yizzle.com/whatthehex/ |
+| Farbenraten | [Whatthehex](http://yizzle.com/whatthehex/) |
 | 50 Cents für | [99Designs](https://99designs.de/) |
 | moiré | [Wavy Logos](http://www.theverge.com/2015/1/23/7876777/sonos-sound-wave-logo) |
 | 1 dollar laptop? | [one laptop](http://one.laptop.org/)  |
 | saynotospec | [Zulu Alpha Kilo](https://www.youtube.com/watch?v=essNmNOrQto&feature=youtu.be)  |
+
+| | |
+|:-|:-|
 | Banks | [Johnson Banks](http://johnsonbanks.co.uk/)  |
 | Hyde | [jekyll](https://jekyllrb.com/)  |
 | juːnɪks | [unix](https://de.wikipedia.org/wiki/Unix)  |
