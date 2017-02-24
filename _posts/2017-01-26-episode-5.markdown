@@ -5,10 +5,10 @@ episode: "05"
 description: "Diese Woche quatschen Oli und Dennis über Design Überraschungen, die Crowd, Quellen und offen gelegten Echsenaugen"
 colorPost: "#349877"
 song: "tilda_1"
-image: assets/img/episode4.svg
+image: assets/img/episode5.svg
 
 
-mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/92933?visual=true" frameborder="0"></iframe>
+mp3: <iframe width="100%" height="200" src="https://www.whooshkaa.com/player/episode/id/93298?visual=true" frameborder="0"></iframe>
 
 chapterTitle:
 - ""
