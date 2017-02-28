@@ -45,8 +45,9 @@ section {
       min-height: 80vh;
       width: 100vw;
       background-color: $color-grey;
-
-
+      @include filter-gradient(#f7f7f7, #00f7f7f7, vertical); // IE6-9
+      @include background-image(linear-gradient(top, rgba(247,247,247,1) 80%,rgba(247,247,247,0) 100%));
+      padding: 2em 4em;
 
       @media (min-width: $mq-md) {
         position: fixed;
@@ -54,7 +55,7 @@ section {
         left: 0;
         height: 100%;
         max-width: 30%;
-
+        padding: 2em;
       }
 
     }
