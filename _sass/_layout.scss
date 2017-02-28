@@ -45,7 +45,6 @@ section {
       min-height: 80vh;
       width: 100vw;
       background-color: $color-grey;
-      @include background-image(linear-gradient(top, rgba(247,247,247,1) 80%,rgba(247,247,247,0) 100%));
       padding: 2em 4em;
 
       @media (min-width: $mq-md) {
