@@ -246,7 +246,10 @@
   &__header {
     text-align: center;
     color: $color-black;
-
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    z-index: 3;
   }
 
   &__excerptText{
