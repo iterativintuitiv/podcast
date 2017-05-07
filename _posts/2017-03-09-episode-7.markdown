@@ -12,18 +12,19 @@ mp3:  7b<iframe width="100%" height="200" src="https://player.whooshkaa.com/play
 
 chapterTitle:
 - ""
+- "7A"
+- "7A"
+- "7B"
+- "7B"
+
+
+chapter:
+- ""
 - "Willkommen"
 - "Vorgeplänkel"
 - "Slick Design"
 - "Dunkle Seite der Interfaces"
 
-
-chapter:
-- ""
-- "7a"
-- "7a"
-- "7b"
-- "7b"
 
 chapterStart:
 - ""
