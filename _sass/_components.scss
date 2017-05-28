@@ -1,7 +1,6 @@
 /**
  * Tabs
  * On the Blog page for posts and categories
- * toll
  */
 
 
@@ -125,7 +124,7 @@
     text-decoration: none;
     align-item: center;
     font-size: calc(1.5vw + 1.5vh);
-    padding: 2vh 0;
+    padding: 3vh 0;
   }
 
   &__counter{
@@ -217,15 +216,18 @@
     opacity: 0;
     position: absolute;
     top: 0;
-    //@include filter: blur(0px);
+
+    @include clip-path(polygon(50% 40%, 60% 50%, 50% 60%, 40% 50%));
+
   }
 
   &__scribbleShowTransition{
-    @include transition( blur 1s ease);
+    @include transition(-webkit-clip-path 0.4s ease-in);
+    @include transition(clip-path 0.4s ease-in);
   }
   &__scribbleShow{
     opacity: 1;
-    //@include filter: blur(20px);
+    @include clip-path(polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%));
   }
 
 
@@ -244,10 +246,7 @@
   &__header {
     text-align: center;
     color: $color-black;
-    position: absolute;
-    margin: auto;
-    width: 100%;
-    z-index: 3;
+
   }
 
   &__excerptText{
