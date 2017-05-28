@@ -1,8 +1,8 @@
 ---
 layout: none
-title: "8b: Ein prototyp sagt mehr als 100 PDFs <br> 8a: Schön für uns"
+title: ""
 episode: "08"
-description: ""Oli und Dennis quatschen diese Woche im ersten Teil über beeindruckende U-Boote, neue Jobs und fantastische Storytelling Tools. Der zweite Teil wird ganz meta mit Buzzwords und einem UI Prototyping 101"
+description: ""
 colorPost: "#E3E464"
 song: "DDT"
 image: assets/img/episode7.svg
