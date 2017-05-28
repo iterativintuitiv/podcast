@@ -1,0 +1,45 @@
+---
+layout: none
+title: "8b: Ein prototyp sagt mehr als 100 PDFs <br> 8a: Schön für uns"
+episode: "08"
+description: "Oli und Dennis quatschen diese Woche im ersten Teil über beeindruckende U-Boote, neue Jobs und fantastische Storytelling Tools. Der zweite Teil wird ganz meta mit Buzzwords und einem UI Prototyping 101"
+colorPost: "#E3E464"
+song: "DDT"
+image: assets/img/episode7.svg
+
+
+mp3:  
+
+chapterTitle:
+- ""
+- "7A"
+- "7A"
+- "7B"
+- "7B"
+
+
+chapter:
+- ""
+- "Willkommen"
+- "Vorgeplänkel"
+- "Slick Design"
+- "Dunkle Seite der Interfaces"
+
+
+chapterStart:
+- ""
+- "00:00:00"
+- "00:01:30"
+- "00:02:30"
+- "00:05:32"
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
+
+| | |
+|:-|:-|
+|EMail? Pah! | [Slack](https://slack.com)|
+|Slack? Pah!| [Spectrum](https://spectrum.chat) |
+|Flexbox? Pah? |  [CSS Grids](https://css-tricks.com/snippets/css/complete-guide-grid/)|
+| |  |
+| |  |
