@@ -216,7 +216,7 @@
     opacity: 0;
     position: absolute;
     top: 0;
-    @include filter: blur(0px);
+    //@include filter: blur(0px);
   }
 
   &__scribbleShowTransition{
