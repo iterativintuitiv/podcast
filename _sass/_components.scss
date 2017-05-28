@@ -224,7 +224,7 @@
   }
   &__scribbleShow{
     opacity: 1;
-    @include filter: blur(20px);
+    //@include filter: blur(20px);
   }
 
 
