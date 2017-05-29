@@ -37,16 +37,17 @@ chapterStart:
 ---
 
 <!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
+
 | | |
 |:-|:-|
 |U-Boote mit Musik | [PocketOperators](https://teenage.engineering/ ) |
 |Jony Wer?| [Ive!](https://jonyiveredesignsthings.tumblr.com/) |
 |Die Kuh macht Muh |  [Der Bear macht writer](http://www.bear-writer.com/) |
 | Die Schweizer Vriante| [iA](https://ia.net/writer/) |
-| |  |
-| |  |
-| |  |
-| |  |
+| | |
+| | |
+| | |
+| | |
 
 | | |
 |:-|:-|
@@ -56,5 +57,5 @@ chapterStart:
 | DC =!| [InVision](https://invision.com/) |
 | Sony =! | [Framer](https://framer.com/)  |
 | Facebook == | [Origami](https://origami.design/)  |
-| |  |
-| |  |
+| | |
+| | |
