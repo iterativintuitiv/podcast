@@ -46,8 +46,6 @@ chapterStart:
 | Die Schweizer Vriante| [iA](https://ia.net/writer/) |
 | | |
 | | |
-| | |
-| | |
 
 | | |
 |:-|:-|
@@ -57,5 +55,3 @@ chapterStart:
 | DC =!| [InVision](https://invision.com/) |
 | Sony =! | [Framer](https://framer.com/)  |
 | Facebook == | [Origami](https://origami.design/)  |
-| | |
-| | |
