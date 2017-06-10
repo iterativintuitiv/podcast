@@ -178,6 +178,7 @@
       img{
         max-height: 1.5em;
         width: 1.5em;
+        min-width: 1em;
           &:hover{
             @include transition(opacity 0.2s ease-in-out);
              opacity: 0.5;
