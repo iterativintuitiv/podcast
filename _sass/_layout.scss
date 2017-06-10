@@ -45,7 +45,8 @@ section {
       min-height: 80vh;
       width: 100vw;
       background-color: $color-grey;
-      padding: 2em 4em;
+      background: linear-gradient($color-grey,rgba(247, 247, 247, 0.5));
+      padding: 2em 25%;
 
       @media (min-width: $mq-md) {
         position: fixed;
