@@ -21,6 +21,8 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   <meta name="twitter:domain" content="{{ site.url }}">
   <meta name="twitter:image" content="https://iterativintuitiv.github.io/podcast/assets/img/twitter.png">
+  
+  <meta property="keywords" content="{% if page.keywords %}{{ page.keywords | escape }} | {{ site.keywords }}{% else %}{{ site.keywords | escape }}{% endif %}">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
