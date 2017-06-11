@@ -43,6 +43,7 @@ section {
       order: 1;
       min-height: 900px; //fallback
       min-height: 80vh;
+      height: auto;
       width: 100vw;
       background-color: $color-grey;
       background: linear-gradient($color-grey,rgba(247, 247, 247, 0.5));
@@ -63,6 +64,7 @@ section {
       height: 100%;
       order: 3;
       position: fixed;
+      top: 0;
       max-width: 10%;
       @media (min-width: $mq-md) {
         order: 2;
