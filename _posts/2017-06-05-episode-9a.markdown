@@ -2,7 +2,7 @@
 layout: none
 title: "9a: Die Rattenfänger von Hameln"
 episode: "09"
-description: "Oli und Dennis über die ersten Wochen im Job, strategic hiring im Design und Silicon Valley"
+description: "Oli und Dennis quatschen über die ersten Wochen im Job, strategic hiring im Design und Silicon Valley"
 colorPost: "#C39074"
 song: "Set"
 image: assets/img/episode9.svg
