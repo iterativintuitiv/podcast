@@ -1,0 +1,41 @@
+---
+layout: none
+title: "9a: Die Rattenfänger von Hameln"
+episode: "09"
+description: "Oli und Dennis über die ersten Wochen im Job, strategic hiring im Design und Silicon Valley"
+colorPost: "#C39074"
+song: "Set"
+image: assets/img/episode9.svg
+
+
+mp3:  <iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/105283?visual=true" frameborder="0" style="width: 100%; height: 200px"></iframe>
+
+chapterTitle:
+- ""
+- "Willkommen"
+- "Vorgeplänkel"
+- ""
+- ""
+
+
+chapter:
+- ""
+- "9a"
+- "9a"
+- ""
+- ""
+
+chapterStart:
+- ""
+- "00:00:00"
+- "00:01:30"
+- ""
+- ""
+---
+
+<!-- nach 8 einträgen ein neues table erstellen, danke :) !-->
+
+| | |
+|:-|:-|
+|Kinderblut| [Das Start-Up](http://www.nerdcore.de/2017/06/04/we-drink-young-blood-for-8k-bucks-a-pop/)|
+| Die Rattenfänger Serie| [Silicon Valley](http://www.serienjunkies.de/silicon-valley/) |
