@@ -5,10 +5,10 @@ episode: "09"
 description: "Oli und Dennis über die ersten Wochen im Job, strategic hiring im Design und Silicon Valley"
 colorPost: "#C39074"
 song: "Set"
-image: assets/img/episode9.svg
+image: 
 
 
-mp3:  <iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/105283?visual=true" frameborder="0" style="width: 100%; height: 200px"></iframe>
+mp3:  <iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/105283?visual=true" frameborder="0"></iframe>
 
 chapterTitle:
 - ""
