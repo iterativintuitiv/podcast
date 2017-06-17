@@ -326,7 +326,7 @@
   &__audioPlayer{
    padding: 0 $padding-standard;
    font-size: 2em;    
-   color: white;
+   color: $color-white;
         & > iframe{
             box-shadow: 0px $padding-half $padding-standard $color-alpha--black;
           }
