@@ -204,7 +204,7 @@
 .preview {
   position: relative;
   padding: $padding-standard 0;
-  @include background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0vh, rgba(255, 255, 255, 0)100vh);
+  /*@include background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0vh, rgba(255, 255, 255, 0)100vh);*/
 
   &__logoPost{
     z-index: 2;
