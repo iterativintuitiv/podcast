@@ -328,8 +328,9 @@
    font-size: 2em;    
    color: white;
         & > *{
-        iframe{
+          iframe{
             @include box-shadow: 0 $padding-half $padding-standard $color-alpha--black;
+          }
       }
   }
 
