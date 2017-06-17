@@ -21,7 +21,7 @@ chapterTitle:
 chapter:
 - ""
 - ""
-- "Lobgesang"
+- "Geplänkel"
 - ""
 - ""
 
@@ -37,7 +37,9 @@ chapterStart:
 
 | | |
 |:-|:-|
+|Neue Rolle| [@Google](https://twitter.com/ediggs/status/850793159747620865?s=08)|
+|Angekündigte| [10 Regeln](https://medium.com/@jackiebo/joining-a-new-team-20271206a62d)|
 |Kinderblut| [Das Start-Up](http://www.nerdcore.de/2017/06/04/we-drink-young-blood-for-8k-bucks-a-pop/)|
-| Die Rattenfänger Serie| [Silicon Valley](http://www.serienjunkies.de/silicon-valley/) |
-| Die Flöten| [StartUp](http://www.piedpiper.com/) |
-| Die Fänger| [Company](http://www.hooli.xyz/) |
+|Die Rattenfänger Serie| [Silicon Valley](http://www.serienjunkies.de/silicon-valley/) |
+|Die Flöten| [StartUp](http://www.piedpiper.com/) |
+|Die Fänger| [Company](http://www.hooli.xyz/) |
