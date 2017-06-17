@@ -203,7 +203,6 @@
 
 .preview {
   position: relative;
-  padding: $padding-standard 0;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0vh, rgba(255, 255, 255, 0) 100vh);
 
   &__logoPost{
@@ -247,7 +246,7 @@
   &__header {
     text-align: center;
     color: $color-black;
-
+    padding: $padding-half $padding-half 0 $padding-half;
   }
 
   &__excerptText{
