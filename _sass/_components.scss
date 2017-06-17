@@ -251,7 +251,7 @@
   }
 
   &__excerptText{
-    padding: $padding-standard $padding-half 0 $padding-half;
+    padding: $padding-standard $padding-standard 0 $padding-standard;
     text-align: center;
     vertical-align: center;
   }
@@ -296,7 +296,7 @@
           }
           &:nth-child(2){
           padding: $padding-standard 0 $padding-standard $padding-standard;
-          color: white;
+          background: white;
             hr{
               width: auto;
               margin: $padding-third 0 ;
