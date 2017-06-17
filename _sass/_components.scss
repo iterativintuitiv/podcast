@@ -329,7 +329,7 @@
    color: white;
         & > *{
         iframe{
-            @include box-shadow: 0 $padding-half $padding-standard rgba(0,0,0,.2);
+            @include box-shadow: 0 $padding-half $padding-standard $color-alpha--black;
       }
   }
 
