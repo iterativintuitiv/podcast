@@ -203,8 +203,8 @@
 
 .preview {
   position: relative;
-
   padding: $padding-standard 0;
+  @include background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0vh, rgba(255, 255, 255, 0)100vh);
 
   &__logoPost{
     z-index: 2;
@@ -251,7 +251,7 @@
   }
 
   &__excerptText{
-    padding: $padding-standard $padding-half;
+    padding: $padding-standard $padding-half 0 $padding-half;
     text-align: center;
     vertical-align: center;
   }
@@ -259,6 +259,7 @@
     color: $color-white;
     font-size: $fontSize-standard;
     line-height: 1.25em;
+    letter-spacing: 0;
     display: inline;
     padding-top: 0.40em;
     padding-bottom: 0.20em;
@@ -275,7 +276,7 @@
 
     font-family: $font-body;
     color: $color-black;
-    padding: $padding-standard 0 $padding-standard $padding-standard;
+    padding: $padding-standard;
 
     font-style: $font-body;
       & > *{
@@ -295,14 +296,9 @@
           }
           &:nth-child(2){
           padding: $padding-standard 0 $padding-standard $padding-standard;
-
           color: white;
             hr{
-
-              width: 110px;
-
-              width: 130px;
-
+              width: auto;
               margin: $padding-third 0 ;
             }
           }
@@ -321,15 +317,20 @@
 
         &:nth-child(2){
           margin: 0;
-          }
+          padding: .1em 0;
+          font-size: 1em;
         }
-
-
-
+      }
   }
 
   &__audioPlayer{
    padding: 0 $padding-standard;
+   font-size: 2em;    
+   color: white;
+        & > *{
+        iframe{
+            @include box-shadow: 0 $padding-half $padding-standard rgba(0,0,0,.2);
+      }
   }
 
   &__links{
