@@ -8,7 +8,7 @@ song: "DDT"
 image: assets/img/episode8.svg
 
 
-mp3: 8b<iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/103624?visual=true" frameborder="0"></iframe> <br> <br> 8a<iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/100442?visual=true" frameborder="0"></iframe>
+mp3: b.<iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/103624?visual=true" frameborder="0"></iframe> <br> <br> a.<iframe width="100%" height="200" src="https://player.whooshkaa.com/player/episode/id/100442?visual=true" frameborder="0"></iframe>
 
 chapterTitle:
 - ""
