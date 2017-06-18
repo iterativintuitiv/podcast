@@ -15,8 +15,8 @@ chapterTitle:
 - "7A Willkommen"
 - "7A"
 - "7B Willkommen"
-- "7B"
-- "7B"
+- "7B Buzzword"
+- "7B Thema"
 
 
 chapter:
